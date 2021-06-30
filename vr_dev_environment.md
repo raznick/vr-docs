@@ -65,6 +65,7 @@ Inspired by: https://developer.oculus.com/documentation/unity/unity-tutorial
 
 ### Installing APKs with ADB
 
-- After building our application, Unity should output an APK file.
-- In a terminal, run: `adb install -r [APK_PATH]`
-- Find your installed app in: `Library -> Unknown Sources` .
+- Directly from Unity: `Ctrl + K`, OR:
+  - After building our application, Unity should output an APK file.
+  - In a terminal, run: `adb install -r [APK_PATH]`
+  - Find your installed app in: `Library -> Unknown Sources` .
